@@ -7,7 +7,7 @@ class InputStore {
     makeAutoObservable(this)
   }
 
-  setText = async (text: string) => {
+  setText = (text: string) => {
     this.text = text
   }
 }
